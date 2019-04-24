@@ -8,6 +8,7 @@
 
 # Pull base image.
 FROM ubuntu:14.04
+RUN apt-get update
 
 # Install Node.js
 RUN apt-get install --yes curl
