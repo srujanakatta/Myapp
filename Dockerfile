@@ -24,7 +24,7 @@ COPY . /src
 RUN cd /src; npm install
 
 # Binds to port 8080
-EXPOSE  8080
+
 
 #  Defines your runtime(define default command)
 # These commands unlike RUN (they are carried out in the construction of the container) are run when the container
